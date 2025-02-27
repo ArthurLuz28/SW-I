@@ -12,5 +12,6 @@
     echo "Soma: $soma <br>";
     echo "Subtração: $sub <br>";
     echo "Multiplicação: $mult <br>";
+    echo "Divisão: $div <br>";
     echo "Resto de divisão: $rest";
 ?>
