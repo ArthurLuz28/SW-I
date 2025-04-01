@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios intermediários</title>
+</head>
+<body>
+    <p>Quantas Linhas e colunas quer na tabela?</p>
+    <div class="container">
+        <form action="processa.php" method="POST">
+        <!-- Linhas input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+            <input type="number" id="form2Example1" class="form-control" name="linha" min="1" required/>
+            <label class="form-label" for="form2Example1">Linhas</label>
+        </div>
+
+        <!-- Colunas input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+            <input type="number" id="form2Example2" class="form-control" name="coluna" min="1" required/>
+            <label class="form-label" for="form2Example2">Colunas</label>
+        </div>
+
+        <!-- Submit button -->
+         <input type="submit" value="Submit" class="btn btn-primary btn-block mb-4">
+        <!-- <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">Sign in</button> -->
+
+        </form>
+    </div>
+</body>
+</html>
